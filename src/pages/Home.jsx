@@ -7,6 +7,10 @@ const Home = () => {
         <>
               
               <p> Hello,This is Kodeoo Limited.</p>
+              <div class="navbar">
+                
+                 <button type="button">Sing Up</button>  
+            </div>
               
         </>
     );
