@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+}
+.popular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 100vh;
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.popular h1{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.popular hr{
+    width: 340px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+    
+}
+
+.popular-item{
+    margin: 35px  130px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    row-gap: 80px;
+    clear: both;
+
+}
+
+
+
+
+@media screen and (max-width: 900px) and (min-width: 600px){
+
+
+    .popular{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        height: 60vh;
+        margin-top: 40px;
+    
+    }
+    
+    .popular h1{
+        color: #171717;
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+    
+    }
+    
+    .popular hr{
+        width: 220px;
+        height: 6px;
+        border-radius: 10px;
+        background: #252525;
+        
+    }
+    
+    .popular-item{
+        margin-top: 25px ;
+        display: grid;
+        grid-template-columns: 1fr 1fr  ;
+        row-gap: 40px;
+        clear: both;
+        gap: 65px;
+        margin-left: 130px;
+        
+    
+    }
+    
+
+
+}
+
+
+
+@media screen and (max-width: 600px) 
+{
+   
+    .popular{
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        height: 83vh;
+        margin-top: 20px;
+        
+    
+    }
+    
+    .popular h1{
+        color: #171717;
+        font-size: 28px;
+        font-weight: 600;
+        text-align: center;
+    
+    }
+    
+    .popular hr{
+        width: 250px;
+        height: 5px;
+        border-radius: 10px;
+        background: #252525;
+        
+    }
+    
+    .popular-item{
+        margin-top: 23px ;
+        display: grid;
+        grid-template-columns: 1fr 1fr  ;
+        row-gap: 40px;
+        clear: both;
+        gap: 25px;
+        /* height: 70vh; */
+        
+    
+    }
+    
+
+}
