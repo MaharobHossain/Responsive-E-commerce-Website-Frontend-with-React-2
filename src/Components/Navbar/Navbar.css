@@ -38,7 +38,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 3px;
+    gap: 7px;
     cursor: pointer;
 }
 
@@ -94,6 +94,7 @@
     background: black;
     color: white;
 }
+
 
 
 
@@ -203,7 +204,6 @@
 
 
 
-
     
 @media screen and (max-width: 600px) 
 {
@@ -306,5 +306,3 @@
     
 }
 }
-
-

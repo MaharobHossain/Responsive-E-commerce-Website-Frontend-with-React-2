@@ -20,7 +20,7 @@ function App() {
     <Navbar/>
     <Routes>
     
-    <Route exact path='/' element={<Shop/>} />
+    {/* <Route exact path='/' element={<Shop/>} />
     <Route exact path="/mens" element={<ShopCategory banner={men_banner} category="men" />} />
     <Route exact path="/womens" element={<ShopCategory banner={women_banner} category="women" />} />
     <Route exact path="/kids" element={<ShopCategory banner={kid_banner} category="kid"/>} />
@@ -29,11 +29,11 @@ function App() {
     </Route>
     <Route exact path='/cart'  element={<Cart/>} />
     <Route exact path='/login'  element={<Login/>} />
-    <Route exact path='/singup'  element={<LoginSignup/>} />
+    <Route exact path='/singup'  element={<LoginSignup/>} /> */}
 
 
     </Routes>
-    <Footer/>
+    {/* <Footer/> */}
     </BrowserRouter>
     
     </div>
