@@ -1,0 +1,350 @@
+.product-details{
+    display: flex;
+    margin: 0px 100px;
+}
+
+.display-left{
+    display: flex;
+    gap: 14px;
+}
+
+.display-img-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.display-img-list img{
+    height: 163px;
+}
+
+.main-img{
+    width: 586px;
+    height: 700px;
+
+}
+.display-right{
+    margin: 0px 30px;
+    display: flex;
+    flex-direction: column;
+}
+.display-right h1{
+    color: #3b3b3b;
+    font-size: 30px;
+    font-weight: 500;
+}
+.display-right-star{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    gap: 5px;
+    color: #1c1c1c;
+    font-size: 17px;
+}
+
+.display-right-price{
+    display: flex;
+    margin: 35px 0px;
+    gap: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.display-price-old{
+    color: #818181;
+    text-decoration: line-through;
+}
+.display-price-new{
+    color: #ff4141;
+}
+
+.right-size h1{
+    margin-top: 20px;
+    color: #656565;
+    font-size: 20px;
+    font-weight: 600;
+}
+.right-sizes{
+    display: flex;
+    margin: 30px 0px;
+    gap: 25px;
+}
+.right-sizes div{
+    padding: 12px 20px;
+    background: #fbfbfb;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.display-right button{
+    padding: 15px 30px;
+    width: 250px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    background: red;
+    border: 1px solid black;
+    margin-bottom: 40px;
+    outline: none;
+    cursor: pointer;
+}
+.display-right button:active{
+    background-color: yellow;
+}
+
+.right-category{
+    margin-top: 2px;
+
+}
+.right-category span{
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 900px) and (min-width: 600px){
+
+    .product-details{
+        display:grid;
+        margin: 0px 39px;
+        /* background: #cac9c9; */
+        /* height: 1210px; */
+        width: 100%;
+    }
+    
+    .display-left{
+        display: flex;
+        gap: 10px;
+        margin-left: 64px;
+    }
+    
+    .display-img-list{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .display-img-list img{
+        height: 130px;
+    }
+    
+    .main-img{
+        width: 460px;
+        height: 550px;
+    
+    }
+    .display-right{
+        margin: 20px 45px;
+        display: flex;
+        flex-direction: column;
+    }
+    .display-right h1{
+        color: #3b3b3b;
+        font-size: 34px;
+        font-weight: 500;
+        width: 86%;
+    }
+    .display-right-star{
+        display: flex;
+        align-items: center;
+        margin-top: 25px;
+        gap: 7px;
+        color: #1c1c1c;
+        font-size: 30px;
+    }
+    
+    .display-right-price{
+        display: flex;
+        margin: 35px 0px;
+        gap: 70px;
+        font-size: 38px;
+        font-weight: 700;
+    }
+    .display-price-old{
+        color: #818181;
+        text-decoration: line-through;
+    }
+    .display-price-new{
+        color: #ff4141;
+    }
+    
+
+    .right-size h1{
+        margin-top: 24px;
+        color: #1d1c1c;
+        font-size: 33px;
+        font-weight: 600;
+    }
+    .right-sizes{
+        display: flex;
+        margin: 25px 0px;
+        gap: 25px;
+    }
+    .right-sizes div{
+        padding: 12px 20px;
+        background: #e4e1e1;
+        border: 1px solid #c4c0c0;
+        border-radius: 3px;
+        cursor: pointer;
+        width: 65px;
+        height: 47px;
+        font-size: 17px;
+        font-weight: 600;
+    }
+    
+    .display-right button{
+        padding: 15px 30px;
+        width: 280px;
+        font-size: 24px;
+        font-weight: 600;
+        color: black;
+        background: red;
+        border: 1px solid black;
+        margin: 30px;
+        outline: none;
+        cursor: pointer;
+    }
+    .display-right button:active{
+        background-color: yellow;
+    }
+    
+    .right-category{
+        margin-top: 8px;
+        font-size: 24px;
+    
+    }
+    .right-category span{
+        font-weight: 600;
+    }
+
+    .description{
+       
+        width: 83%;
+        font-size: 20px;
+    }
+
+   
+
+}
+
+@media screen and (max-width: 600px) 
+{
+
+    .product-details{
+        display:grid;
+        margin: 0px 20px;
+        
+    }
+    
+    .display-left{
+        display: flex;
+        gap: 5px;
+    }
+    
+    .display-img-list{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .display-img-list img{
+        height: 80px;
+        
+    }
+    
+    .main-img{
+        width: 257px;
+        height: 335px;
+    
+    }
+    .display-right{
+        margin:10px 10px;
+        display: flex;
+        flex-direction: column;
+        /* height: 400px; */
+    }
+    .display-right h1{
+        color: #3b3b3b;
+        font-size: 15px;
+        font-weight: 600;
+        width: 90%;
+    }
+    .display-right-star{
+        display: flex;
+        align-items: center;
+        margin-top: 8px;
+        gap: 5px;
+        color: #1c1c1c;
+        font-size: 15.5px;
+    }
+    
+    .display-right-price{
+        display: flex;
+        margin: 20px 2px;
+        gap: 50px;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .display-price-old{
+        color: #818181;
+        text-decoration: line-through;
+    }
+    .display-price-new{
+        color: black;
+    }
+
+    .description{
+        /* margin:10px 30px 10px 10px; */
+        width: 85%;
+        font-size: 13.5px;
+    }
+    
+    .right-size h1{
+        margin-top: 14px;
+        color: #656565;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .right-sizes{
+        display: flex;
+        margin: 17px 0px;
+        gap: 20px;
+    }
+    .right-sizes div{
+        padding: 4px 10px;
+        background: #fbfbfb;
+        border: 1px solid #ebebeb;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    
+    .display-right button{
+        
+        width: 180px;
+        height: 43px;
+        font-size: 15px;
+        font-weight: 600;
+        color: black;
+        background: rgb(255, 4, 4);
+        border: 1px solid black;
+        margin-left: 42px;
+        margin-bottom: 10px;
+        border-radius: 70px;
+        outline: none;
+        cursor: pointer;
+
+    }
+    .display-right button:active{
+        background-color: yellow;
+    }
+    
+    .right-category{
+        margin-top: 8px;
+        font-size: 15px;
+    
+    }
+    .right-category span{
+        font-weight: 600;
+    }
+
+}
+
