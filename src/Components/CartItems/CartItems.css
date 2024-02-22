@@ -1,0 +1,453 @@
+.CartItems{
+    margin: 80px 120px;
+}
+
+.CartItems hr{
+    height: 3px;
+    background: #e2e2e2;
+    border: 0;
+}
+
+.cart-formate{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 75px;
+    padding: 20px opx;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 500;
+}
+.crt-format{
+    font-size: 17px;
+    font-weight: 600;
+}
+.crt-format p{
+    position: relative;
+    left: 14px;
+    font-size: 14px;
+    width: 75%;
+}
+.crt-format button{
+    position: relative;
+    left: 20px;
+}
+.crt-format h3{
+    position: relative;
+    font-size: 17px;
+    font-weight: 600;
+    right: -18px;
+}
+
+.crt-format h2{
+    position: relative;
+    font-size: 17px;
+    font-weight: 600;
+    right: -14px;
+}
+.carticon-product{
+    width: 59px;
+    height: 65px;
+    position: relative;
+    left: 3px;
+}
+
+.cart-remove-icon{
+    width: 15px;
+    margin: 0px 40px;
+    cursor: pointer;
+}
+.cart-quantity{
+    width: 50px;
+    height: 40px;
+    border: 2px solid #ebebeb;
+    background: #fff;
+}
+
+.cart-down{
+    display: flex;
+    margin: 100px 0px;
+}
+.cart-total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    gap: 40px;
+}
+.cart-total-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+.cart-total button{
+    width: 262px;
+    height: 45px;
+    outline: none;
+    border: 1px solid black;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: red;
+}
+.cart-total button:active{
+    background-color: yellow;
+}
+
+.cart-pomo-code{
+    flex: 1;
+    font-size: 16px;
+    font-weight: 500;
+}
+.cart-pomo-code p{
+    color: #555;
+}
+.cart-pomo-box{
+    width: 504px;
+    margin-top: 15px;
+    padding-left: 20px;
+    height: 58px;
+    background: #eaeaea;
+}
+.cart-pomo-box input{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    width: 315px;
+    height: 50px;
+}
+.cart-pomo-box button{
+    width: 168px;
+    height: 57px;
+    font-size: 22px;
+    font-weight: 600;
+    outline: none;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+    background-color: red;
+}
+.cart-pomo-box button:active{
+    background-color: yellow;
+}
+
+
+@media screen and (max-width: 900px) and (min-width: 600px)
+{
+
+
+    .CartItems{
+        margin: 45px 80px;
+        
+    }
+    
+    .CartItems hr{
+        height: 2.5px;
+        background: #e2e2e2;
+        border: 0;
+        width: 605px;
+    }
+    
+    .cart-formate{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        align-items: center;
+        gap: 5px;
+        padding: 20px opx;
+        color: #454545;
+        font-size: 13.5px;
+        font-weight: 600;
+    }
+    .crt-format{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .crt-format p{
+        position: relative;
+        left: -6px;
+        
+    }
+    .crt-format button{
+        position: relative;
+        width: 33px;
+        height: 27px;
+        left: 5px;
+    }
+    .carticon-product{
+        width: 59px;
+        height: 77px;
+        position: relative;
+        left: 1px;
+    }
+  
+    .crt-format h2{
+        position: relative;
+        font-size: 17px;
+        font-weight: 600;
+        left: 2px;
+    }
+
+    .crt-format h3{
+        position: relative;
+        font-size: 17px;
+        font-weight: 600;
+        left: 2px;
+    }
+    
+    .cart-remove-icon{
+        width: 15px;
+        margin: 0px 18px;
+        cursor: pointer;
+    }
+    .cart-quantity{
+        width: 50px;
+        height: 42px;
+        border: 2px solid #ebebeb;
+        background: #fff;
+    }
+    
+    .cart-down{
+        display: flex;
+        flex-direction: column;
+        margin: 50px 0px;
+    }
+    .cart-total{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        margin-right: 59px;
+        gap: 20px;
+    }
+    
+    .cart-total button{
+        width: 300px;
+        height: 35px;
+        outline: none;
+        border: 1px solid black;
+        color: black;
+        font-size: 15px;
+        font-weight: 600;
+        cursor: pointer;
+        background-color: rgb(5, 255, 101);
+        margin-left: 135px;
+    }
+    .cart-total button:active{
+        background-color: yellow;
+    }
+    
+    .cart-pomo-code{
+        flex: 1;
+        margin-top: 60px;
+        font-size: 19px;
+        font-weight: 500;
+        margin-left: 70px;
+    }
+    .cart-pomo-code p{
+        color: #555;
+    }
+    .cart-pomo-box{
+        width: 414px;
+        margin-top: 15px;
+        padding-left: 8px;
+        height: 38px;
+        background: #eaeaea;
+    }
+    .cart-pomo-box input{
+        border: none;
+        outline: none;
+        background: transparent;
+        font-size: 15px;
+        width: 315px;
+        height: 40px;
+    }
+    .cart-pomo-box button{
+        width: 91px;
+        height: 35px;
+        font-size: 19px;
+        font-weight: 600;
+        outline: none;
+        border: 1px solid black;
+        color: black;
+        cursor: pointer;
+        background-color: rgb(5, 255, 101);
+        /* margin-left: 284px; */
+        
+        
+    }
+    .cart-pomo-box button:active{
+        background-color: yellow;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 600px) 
+{
+
+    .CartItems{
+        margin: 20px 1px;
+        width: 100%;
+    }
+    
+    .CartItems hr{
+         margin-left: 27px;
+        width: 315px;
+        height: 2.5px;
+        background: #e2e2e2;
+        border: 0;
+    }
+    
+    .cart-formate{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        align-items: center;
+        gap:1px;
+        padding: 3px 0px;
+        color: #454545;
+        font-size: 11px;
+        font-weight: 600;
+        width: 340px;
+        margin-left: 20px;
+    }
+    .crt-format{
+        
+        font-size: 8px;
+        font-weight: 600;
+    }
+    .crt-format p{
+        position: relative;
+        width: 45px;
+        /* left: -3px; */
+
+      
+        left: 3px;
+        font-size: 7px;
+        /* width: 75%; */
+    }
+   
+    .carticon-product{
+        width: 42px;
+        height: 50px;
+        position: relative;
+        left: 1px;
+    }
+  
+    .crt-format h3{
+        position: relative;
+        font-size: 16px;
+        font-weight: 600;
+        left: 15px;
+    }
+
+    .crt-format h2{
+        position: relative;
+        font-size: 16px;
+        font-weight: 600;
+        left: 30px;
+    }
+  
+    .cart-remove-icon{
+        width: 14px;
+        cursor: pointer;
+        margin-right: 38px;
+        
+    }
+    .cart-quantity{
+        width: 27px;
+        height: 23px;
+        border: 2px solid #ebebeb;
+        background: #fff;
+        margin-left:9px ;
+    }
+    
+    .cart-down{
+        display: flex;
+        flex-direction: column;
+        margin: 40px 0px;
+    }
+    .cart-total{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    
+    }
+
+    .cart-total-item{
+        width: 310px;
+        margin-left: 29px;
+        display: flex;
+    }
+    .cart-total h1{
+        margin-left: 20px;
+        font-size: 24.5px;
+    
+    }
+    .cart-total button{
+        width: 200px;
+        height: 30px;
+        outline: none;
+        border: 1px solid black;
+        color: black;
+        font-size: 13px;
+        font-weight: 600;
+        cursor: pointer;
+        background-color: yellow;
+        margin-left: 60px;
+    }
+    .cart-total button:active{
+        background-color: rgb(5, 255, 101);
+    }
+    
+    .cart-pomo-code{
+        flex: 1;
+        margin-top: 45px;
+        font-size: 17.5px;
+        font-weight: 600;
+        margin-left: 30px;
+    }
+    .cart-pomo-code p{
+        color: #555;
+    }
+    .cart-pomo-box{
+        width: 300px;
+        margin-top: 15px;
+        padding-left: 9px;
+        height: 33px;
+        background: #eaeaea;
+        border-radius: 70px;
+    }
+    .cart-pomo-box input{
+        border: none;
+        outline: none;
+        background: transparent;
+        font-size: 17px;
+        font-weight: 600;
+        width: 200px;
+        height: 33px;
+    }
+    .cart-pomo-box button{
+        width: 90px;
+        height: 31px;
+        font-size: 17px;
+        font-weight: 600;
+        border-radius: 70px;
+        outline: none;
+        border: 1px solid black;
+        color: black;
+        cursor: pointer;
+        background-color: yellow;
+        
+    }
+
+    
+
+    .cart-pomo-box button:active{
+        background-color: rgb(5, 255, 101);
+    }
+
+}
