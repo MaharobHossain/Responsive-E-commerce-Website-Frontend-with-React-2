@@ -1,0 +1,245 @@
+*{
+    box-sizing: border-box;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.offers{
+    width: 100%;
+    height: 57vh;
+  
+    padding: 0px 140px;
+    background: linear-gradient(180deg, #5d9c79, #7fbfdd22 60%);
+    display: flex;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.offers-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    right: 20px;
+    margin-top: 35px;
+
+}
+
+.offers-left h1{
+    color: #171717;
+    font-size: 60px;
+    font-weight: 600;
+    position: relative;
+    right: 20px;
+
+}
+
+.offers-left p{
+    color: #171717;
+    font-size: 22px;
+    font-weight: 600;
+    position: relative;
+    right: 15px;
+    
+}
+
+.offers-left button{
+    width: 350px;
+    height: 40px;
+    margin-top: 30px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 75px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: yellow;
+}
+
+.offers-left button:active{
+    background: rgb(5, 255, 101);
+}
+
+
+.offers-right{
+    width: 70%;
+    height: 110px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: 50px;
+    padding-top: 10px;
+
+}
+
+.offers-right img{
+    height: 255px;
+    position: relative;
+    left: 750px;
+    margin-bottom: 330px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) and (min-width: 600px)
+{
+    .offers{
+        width: 100%;
+        height: 28vh; 
+        padding: 0px 50px;
+        background: linear-gradient(180deg, #5d9c79, #7fbfdd22 60%);
+        display: flex;
+        margin-top: 80px;
+    
+    }
+    
+    .offers-left{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        position: relative;
+        /* right: 1px; */
+        margin-top: 60px;
+        margin-left: 60px;
+    
+    }
+    
+    .offers-left h1{
+        color: #171717;
+        font-size: 32px;
+        font-weight: 600;
+        position: relative;
+        right: 1px;
+    
+    }
+    
+    .offers-left p{
+        color: #171717;
+        font-size: 18px;
+        font-weight: 500;
+        position: relative;
+        right: 1px;
+        padding-top: 13px;
+        
+    }
+    
+    .offers-left button{
+        width: 175px;
+        height: 27px;
+        margin-top: 16px;
+        margin-right: 22px;
+        outline: none;
+        border: 1px solid black;
+        border-radius: 75px;
+        color: black;
+        font-size: 15.5px;
+        font-weight: 600;
+        cursor: pointer;
+        background-color: yellow;
+    }
+    
+    .offers-left button:active{
+        background: rgb(5, 255, 47);
+    }
+    
+
+    
+
+    .offers-right img{
+        /* width: 200px; */
+        height: 253px;
+        position:sticky;
+        margin-top: 80px;
+        margin-left: 370px;
+        
+    }
+}
+
+
+
+@media screen and (max-width: 600px) 
+{
+
+    .offers{
+        width: 100%;
+        height: 26vh; 
+        padding: 0px 43px;
+        background: linear-gradient(180deg, #5d9c79, #7fbfdd22 60%);
+        display: flex;
+       
+    
+    }
+    
+    .offers-left{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        position: relative;
+        right: 13px;
+        margin-top: 26px;
+    
+    }
+    
+    .offers-left h1{
+        color: #171717;
+        font-size: 17px;
+        font-weight: 600;
+        position: relative;
+        right: 5px;
+    
+    }
+    
+    .offers-left p{
+        color: #171717;
+        font-size: 12px;
+        font-weight: 500;
+        position: relative;
+        right: 5px;
+        padding-top: 11px;
+        
+    }
+    
+    .offers-left button{
+        width: 130px;
+        height: 21.5px;
+        margin-top: 19px;
+        outline: none;
+        border: 0.5px solid black;
+        border-radius: 75px;
+        color: black;
+        font-size: 13px;
+        font-weight: 600;
+        cursor: pointer;
+        background-color: yellow;
+    }
+    
+    .offers-left button:active{
+        background: rgb(5, 255, 47);
+    }
+    
+
+    
+
+    .offers-right img{
+        width: 176px;
+        height: 176px;
+        position:sticky;
+        margin-top: 125px;
+        margin-left: 191px;
+        
+    }
+    
+}
