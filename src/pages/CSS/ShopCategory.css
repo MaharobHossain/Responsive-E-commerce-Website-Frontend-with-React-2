@@ -1,0 +1,200 @@
+
+.shop-category{
+    width: 100%;
+}
+
+
+.shopcategory-banner{
+    display: block;
+    margin: 30px auto;
+    width: 95%;
+    clear: both;
+    border: 1px solid #dadada;
+    
+}
+.shopcategory-indexShort{
+    display: flex;
+    margin: 5px 137px;
+    justify-content: space-between;
+    align-items: center;
+}
+.shopcategory-short{
+    padding: 8px 25px;
+    border-radius: 40px;
+    border: 1px solid #888;
+}
+
+.shopcategory-indexShort p span{
+    font-weight: 500;
+}
+
+.shopcategory-products{
+    margin: 25px  135px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 80px;
+    clear: both;
+}
+
+.shopcategory-loadmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+    width: 233px;
+    height: 50px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 75px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: yellow;
+}
+.shopcategory-loadmore:active{
+    background: rgb(5, 255, 101);
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px){
+
+    .shop-category{
+        width: 100%;
+    }
+    
+    .shopcategory-banner{
+        display: block;
+        margin: 19px auto;
+        width: 88%;
+        clear: both;
+        border: 1px solid #dadada;
+        margin-left: 45px;
+        
+    }
+
+    .shopcategory-indexShort{
+        display: flex;
+        margin: 29px 75px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .shopcategory-short{
+        padding: 4px 17px;
+        border-radius: 40px;
+        border: 1px solid #888;
+    }
+    
+    .shopcategory-indexShort p span{
+        font-weight: 600;
+    }
+    
+    .shopcategory-products{
+        margin: 35px  78px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        row-gap: 60px;
+        clear: both;
+        margin-left: 96px;
+
+    }
+    
+    .shopcategory-loadmore{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 60px auto;
+        width: 210px;
+        height: 40px;
+        outline: none;
+        border: 1px solid black;
+        border-radius: 75px;
+        color: black;
+        font-size: 20px;
+        font-weight: 600;
+        cursor: pointer;
+        background-color: yellow;
+    }
+    .shopcategory-loadmore:active{
+        background: rgb(4, 230, 90);
+    }
+
+}
+
+
+@media screen and (max-width: 600px)
+ {
+
+
+    .shop-category{
+        width: 100%;
+    }
+
+    .shopcategory-banner{
+        display: block;
+        margin: 19px auto;
+        width: 88%;
+        clear: both;
+        border: 1px solid #dadada;
+        margin-left: 24px;
+        
+    }
+
+    .shopcategory-indexShort{
+        display: flex;
+        margin: 5px 35px;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 13px;
+        
+
+    }
+    .shopcategory-short{
+        
+        padding: 1px 12px;
+        border-radius: 10px;
+        border: 1px solid #888;
+        height: 19px;
+        font-size: 12px;
+        margin-right: 18px;
+       
+        
+    }
+    
+    .shopcategory-short img{
+        height: 6px;
+    }
+    
+    .shopcategory-indexShort p span{
+        font-weight: 700;
+    }
+    
+    .shopcategory-products{
+        margin: 35px  15px;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        row-gap: 40px;
+        clear: both;
+        margin-left: 45px;
+    }
+    
+    .shopcategory-loadmore{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 49px 85px;
+        width: 215px;
+        height: 33px;
+        outline: none;
+        border: 1px solid black;
+        border-radius: 75px;
+        color: black;
+        font-size: 18px;
+        font-weight: 600;
+        cursor: pointer;
+        background-color: rgb(5, 255, 101);
+    }
+    .shopcategory-loadmore:active{
+        background: yellow;
+    }
+    
+ }
