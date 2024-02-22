@@ -1,0 +1,236 @@
+.clearfix{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.newsletter{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(180deg, #5d9c79, #7fbfdd22 60%);
+    gap: 20px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.newsletter h1{
+    color: black;
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.newsletter p{
+    color: #363636;
+    font-size: 21px;
+
+}
+.newsletter p span{
+    color: red;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.newsletter div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    width: 730px;
+    height: 40px;
+    border-radius: 80px;
+    border: 1px solid #636262;
+
+}
+
+.newsletter input{
+    width: 500px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    color: #525151;
+    font-family: Poppins;
+    font-size: 16px;
+
+}
+
+.newsletter div button{
+    width: 210px;
+    height: 40px;
+    /* color: rgb(77, 70, 70); */
+    color: black;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 75px;
+    background-color: yellow;
+    font-size: 23px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+.newsletter div button:active{
+    background: rgb(5, 255, 101);
+}
+
+
+
+@media screen and (max-width: 900px) and (min-width: 600px)
+{
+
+
+    .newsletter{
+        width: 100%;
+        height: 28vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        background: linear-gradient(180deg, #5d9c79, #7fbfdd22 60%);
+        gap: 20px;
+    
+    }
+    
+    .newsletter h1{
+        color: black;
+        font-size: 27px;
+        font-weight: 600;
+    }
+    
+    .newsletter p{
+        color: #363636;
+        font-size: 18px;
+    
+    }
+    .newsletter p span{
+        color: red;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .newsletter div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: white;
+        width: 345px;
+        height: 30px;
+        border-radius: 80px;
+        border: 1px solid #636262;
+    
+    }
+    
+    .newsletter input{
+        width: 200px;
+        margin-left: 30px;
+        border: none;
+        outline: none;
+        color: #525151;
+        font-family: Poppins;
+        font-size: 16px;
+    
+    }
+    
+    .newsletter div button{
+        width: 210px;
+        height: 30px;
+        color: rgb(77, 70, 70);
+        outline: none;
+        border: 1px solid black;
+        border-radius: 75px;
+        background-color: yellow;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        
+    }
+    .newsletter div button:active{
+        background: rgb(5, 255, 101);
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 600px) 
+{
+
+    .newsletter{
+        width: 100%;
+        height: 23vh;
+        margin-bottom: 15px;
+        background: linear-gradient(180deg, #5d9c79, #7fbfdd22 60%);
+        gap: 14px;
+    
+    }
+    
+    .newsletter h1{
+        color: black;
+        font-size: 18.5px;
+        font-weight: 600;
+    }
+    
+    .newsletter p{
+        color: #363636;
+        font-size: 13.5px;
+    
+    }
+    .newsletter p span{
+        color: red;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .newsletter div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: white;
+        width: 260px;
+        height: 26px;
+        border-radius: 75px;
+        border: 1px solid #636262;
+    
+    }
+    
+    .newsletter input{
+        width:200px;
+        margin-left: 10px;
+        border: none;
+        outline: none;
+        color: #525151;
+        font-family: Poppins;
+        font-size: 14px;
+    
+    }
+    
+    .newsletter div button{
+        width: 212px;
+        height: 26px;
+        color: rgb(77, 70, 70);
+        outline: none;
+        border: 1px solid black;
+        border-radius: 75px;
+        background-color: yellow;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        
+    }
+    .newsletter div button:active{
+        background: rgb(5, 255, 101);
+    }
+    
+
+}
+
+
+
+
