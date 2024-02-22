@@ -1,0 +1,277 @@
+.clearfix{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+*{
+    box-sizing: border-box;
+}
+.hero{
+    width: 1343px;
+    height: 68vh;
+    background: linear-gradient(180deg, #6dcc98, #3bd19f22 60%);
+    display: flex;
+    /* clear: both; */
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 150px;
+    line-height: 1.1;
+}
+
+.hero-left h2{
+    color: #090909;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.hero-left p{
+    color: #171717;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.hand-icon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.hand-icon img{
+    width: 100px;
+    
+}
+
+.hero-latest-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 270px;
+    height: 30px;
+    margin-top: 20px;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 77px;
+    cursor: pointer;
+    background-color: yellow;
+}
+.hero-latest-button:active{
+    background: rgb(5, 255, 101);
+    color: black;
+}
+
+.hero-latest-button img{
+    width: 56px;
+    height: 31px;
+}
+
+.family-icon{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 170px;
+   
+    
+}
+
+.family-icon img{
+    width: 500px;
+    /* padding-bottom: 170px; */
+    
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px)
+{
+
+    .hero{
+        width: 100%;
+        height: 34vh;
+        background: linear-gradient(180deg, #60eb9e, #2dc49122 60%);
+        display: flex;
+    }
+    
+    .hero-left{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+        padding-left: 75px;
+        line-height: 1.1;
+    }
+    
+    .hero-left h2{
+        color: #090909;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    .hero-left p{
+        color: #171717;
+        font-size: 27px;
+        font-weight: 500;
+    }
+    
+    .hand-icon{
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    
+    }
+    
+    .hand-icon img{
+        width: 60px;
+        height: 60px;
+        
+    }
+    
+    .hero-latest-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        width: 200px;
+        height: 24px;
+        margin-top: 20px;
+        color: black;
+        font-size: 16px;
+        font-weight: 600;
+        outline: none;
+        border: 1px solid black;
+        border-radius: 75px;
+        cursor: pointer;
+        background-color: yellow;
+    }
+    .hero-latest-button:active{
+        background: rgb(1, 241, 13);
+        color: black;
+    }
+    
+    .hero-latest-button img{
+        width: 37px;
+        height: 24px;
+    }
+    
+    .family-icon{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        /* right: 50px; */
+        /* margin-left: 70px; */
+    }
+    
+    .family-icon img{
+        width: 310px;
+        margin-right: -150px;
+        
+    }
+
+}  
+
+@media screen and (max-width: 600px) 
+{
+
+    .hero{
+        width: 100% ;
+        height: 26vh;
+        background: linear-gradient(180deg, #6dcc98, #3bd19f22 60%);
+        display: flex;
+    }
+    
+    .hero-left{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+        padding-left: 28px;
+        line-height: 1.1;
+    }
+    
+    .hero-left h2{
+        color: #090909;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    
+    .hero-left p{
+        color: #171717;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    .hand-icon{
+        display: flex;
+        align-items: center;
+        gap: 1px;
+    
+    }
+    
+    .hand-icon img{
+        width: 45px;
+        height: 47px;
+        
+    }
+    
+    .hero-latest-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        width: 117px;
+        height: 16px;
+        margin-top: 10px;
+        color: black;
+        font-size: 8.5px;
+        font-weight: 600;
+        outline: none;
+        border: 1px solid black;
+        border-radius: 75px;
+        cursor: pointer;
+        background-color: yellow;
+    }
+    .hero-latest-button:active{
+        background: rgb(1, 241, 13);
+        color: black;
+    }
+    
+    .hero-latest-button img{
+        width: 27px;
+        height: 14px;
+    }
+    
+    .family-icon{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        right: 13px;
+        
+    }
+    
+    .family-icon img{
+        width: 212px;
+        
+    }
+
+}   
+
+   
