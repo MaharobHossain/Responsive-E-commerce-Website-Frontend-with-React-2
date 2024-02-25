@@ -1,18 +1,22 @@
 
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Routes,   } from 'react-router-dom';
 import Shop from './Pages/Shop';
 import ShopCategory from './Pages/ShopCategory';
 import Product from './Pages/Product';
 import LoginSignup from './Pages/LoginSignup';
 import Cart from './Pages/Cart';
-
+import Footer from './Components/Footer/Footer';
 import men_banner from './Components/Assetss/banner_mens.png'
 import women_banner from './Components/Assetss/banner_women.png'
 import kid_banner from './Components/Assetss/banner_kids.png'
 import Login from './Pages/Login';
-import Footer from './Components/Footer/Footer';
+
+
+
+
+
 
 function App() {
   return (
